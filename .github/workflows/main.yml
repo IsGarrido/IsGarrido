@@ -14,3 +14,18 @@ jobs:
         with:
           # Your GitHub token
           token: ${{ secrets.METRICS_TOKEN }}
+          
+          plugin_isocalendar: yes
+          plugin_languages: yes
+          plugin_habits: yes
+          plugin_habits_facts: yes
+          plugin_stars: yes
+          plugin_gists: yes
+          plugin_lines: yes
+          plugin_projects: yes
+          plugin_activity: yes
+          plugin_music: yes
+          plugin_music_provider: "spotify"
+          plugin_music_token: "f0b7e8f115234334844a2ea411cabfe2,17cd19e42e594c198c7835fc18379fd1,AQCOYGCgNaEL8QovI5kfL6O6Tok-4kQZtMDDSSTWZ7C2ji3V0IVyfNnqqSmm7LvV7JP5sg8IW9OZe9JE9i6I2aLKZ0MomIn7TrQnr3SfviEO-4dTyr4AMU0dWDt6s5jA7j0"
+          
+          
