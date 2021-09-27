@@ -23,7 +23,6 @@ jobs:
           plugin_gists: yes
           plugin_lines: yes
           plugin_projects: yes
-          plugin_activity: yes
           plugin_music: yes
           plugin_music_provider: "spotify"
           plugin_music_token: ${{ secrets.SPOTIFY_TOKENS }}
